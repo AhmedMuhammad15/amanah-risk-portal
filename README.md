@@ -1,4 +1,4 @@
- AI-Driven Shariah Compliance & Credit Risk Portal
+** AI-Driven Shariah Compliance & Credit Risk Portal**
 
 An enterprise-grade FinTech application designed for automated Islamic banking (Murabaha) underwriting. This portal screens applicants for Shariah compliance and uses Machine Learning to predict credit default risk based on operational financial metrics.
 
@@ -21,11 +21,18 @@ An enterprise-grade FinTech application designed for automated Islamic banking (
 ## 📦 Installation & Setup
 
 1. **Clone the Repository:**
-   ```bash
-   git clone [https://github.com/AhmedMuhammad15/bank-risk-evaluator.git](https://github.com/AhmedMuhammad15/bank-risk-evaluator.git)
+
+   git clone (https://github.com/AhmedMuhammad15/bank-risk-evaluator.git)
    cd bank-risk-evaluator
-Install Dependencies:Bashpip install -r requirements.txt
-Run the Application Locally:Bashstreamlit run app.py
-📊 Core Banking LogicThe system utilizes an industry-standard Debt-to-Income (DTI) estimation matrix factoring in a simulated 12% Murabaha bank profit markup rate:
+   
+**Install Dependencies:**
+pip install -r requirements.txt
+**Run the Application Locally:**
+streamlit run app.py or python -m streamlit run app.py
+
+**📊 Core Banking Logic:**
+The system utilizes an industry-standard Debt-to-Income (DTI) estimation matrix factoring in a simulated 12% Murabaha bank profit markup rate:
+
 <img width="889" height="282" alt="image" src="https://github.com/user-attachments/assets/fc49de42-edb1-4bf6-bdd9-b2ab4c5b565d" />
+
 Applications with a high DTI or critical AI-predicted risk profiles trigger automated warning flags to optimize asset allocation safety.
