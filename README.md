@@ -26,4 +26,6 @@ An enterprise-grade FinTech application designed for automated Islamic banking (
    cd bank-risk-evaluator
 Install Dependencies:Bashpip install -r requirements.txt
 Run the Application Locally:Bashstreamlit run app.py
-📊 Core Banking LogicThe system utilizes an industry-standard Debt-to-Income (DTI) estimation matrix factoring in a simulated 12% Murabaha bank profit markup rate:$$\text{Total Monthly Obligations} = \text{Existing Debts} + \left( \frac{\text{Requested Amount} \times 1.12}{\text{Tenure Months}} \right)$$$$\text{DTI Ratio} = \frac{\text{Total Monthly Obligations}}{\text{Monthly Income}}$$Applications with a high DTI or critical AI-predicted risk profiles trigger automated warning flags to optimize asset allocation safety.
+📊 Core Banking LogicThe system utilizes an industry-standard Debt-to-Income (DTI) estimation matrix factoring in a simulated 12% Murabaha bank profit markup rate:
+<img width="889" height="282" alt="image" src="https://github.com/user-attachments/assets/fc49de42-edb1-4bf6-bdd9-b2ab4c5b565d" />
+Applications with a high DTI or critical AI-predicted risk profiles trigger automated warning flags to optimize asset allocation safety.
